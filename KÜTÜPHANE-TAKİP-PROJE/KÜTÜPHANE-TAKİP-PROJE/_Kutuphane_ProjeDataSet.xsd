@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="_Kutuphane_ProjeDataSet" targetNamespace="http://tempuri.org/_Kutuphane_ProjeDataSet.xsd" xmlns:mstns="http://tempuri.org/_Kutuphane_ProjeDataSet.xsd" xmlns="http://tempuri.org/_Kutuphane_ProjeDataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="Kutuphane_ProjeConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="Kutuphane_ProjeConnectionString (Settings)" PropertyReference="ApplicationSettings.KÜTÜPHANE_TAKİP_PROJE.Properties.Settings.GlobalReference.Default.Kutuphane_ProjeConnectionString" Provider="System.Data.OleDb" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="Tablo1TableAdapter" GeneratorDataComponentClassName="Tablo1TableAdapter" Name="Tablo1" UserDataComponentName="Tablo1TableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="Kutuphane_ProjeConnectionString (Settings)" DbObjectName="Tablo1" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT KitapID, KitapAdi, Yazar, Tür, Konu, SayfaSayisi, BasimYili, BasimYeri, BasimEvi, OkunmaSayisi, RafYeri FROM Tablo1</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="Tablo2TableAdapter" GeneratorDataComponentClassName="Tablo2TableAdapter" Name="Tablo2" UserDataComponentName="Tablo2TableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="Kutuphane_ProjeConnectionString (Settings)" DbObjectName="Tablo2" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT UyeID, Ad, Soyad, Telefon, Email, KayitTarihi FROM Tablo2</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="Tablo3TableAdapter" GeneratorDataComponentClassName="Tablo3TableAdapter" Name="Tablo3" UserDataComponentName="Tablo3TableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="Kutuphane_ProjeConnectionString (Settings)" DbObjectName="Tablo3" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT TakipID, UyeID, KitapID, VerilisTarihi, DonusTarihi, Durum FROM Tablo3</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings />
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="_Kutuphane_ProjeDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_UserDSName="_Kutuphane_ProjeDataSet" msprop:Generator_DataSetName="_Kutuphane_ProjeDataSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Tablo1" msprop:Generator_RowEvHandlerName="Tablo1RowChangeEventHandler" msprop:Generator_RowDeletedName="Tablo1RowDeleted" msprop:Generator_RowDeletingName="Tablo1RowDeleting" msprop:Generator_RowEvArgName="Tablo1RowChangeEvent" msprop:Generator_TablePropName="Tablo1" msprop:Generator_RowChangedName="Tablo1RowChanged" msprop:Generator_RowChangingName="Tablo1RowChanging" msprop:Generator_TableClassName="Tablo1DataTable" msprop:Generator_RowClassName="Tablo1Row" msprop:Generator_TableVarName="tableTablo1" msprop:Generator_UserTableName="Tablo1">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Tablo2" msprop:Generator_RowEvHandlerName="Tablo2RowChangeEventHandler" msprop:Generator_RowDeletedName="Tablo2RowDeleted" msprop:Generator_RowDeletingName="Tablo2RowDeleting" msprop:Generator_RowEvArgName="Tablo2RowChangeEvent" msprop:Generator_TablePropName="Tablo2" msprop:Generator_RowChangedName="Tablo2RowChanged" msprop:Generator_RowChangingName="Tablo2RowChanging" msprop:Generator_TableClassName="Tablo2DataTable" msprop:Generator_RowClassName="Tablo2Row" msprop:Generator_TableVarName="tableTablo2" msprop:Generator_UserTableName="Tablo2">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Tablo3" msprop:Generator_RowEvHandlerName="Tablo3RowChangeEventHandler" msprop:Generator_RowDeletedName="Tablo3RowDeleted" msprop:Generator_RowDeletingName="Tablo3RowDeleting" msprop:Generator_RowEvArgName="Tablo3RowChangeEvent" msprop:Generator_TablePropName="Tablo3" msprop:Generator_RowChangedName="Tablo3RowChanged" msprop:Generator_RowChangingName="Tablo3RowChanging" msprop:Generator_TableClassName="Tablo3DataTable" msprop:Generator_RowClassName="Tablo3Row" msprop:Generator_TableVarName="tableTablo3" msprop:Generator_UserTableName="Tablo3">
+          <xs:complexType>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
