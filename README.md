@@ -6,4 +6,4 @@
 # K
 # G A Y
 
-#KOTOWARU
+K O T O W A R U
