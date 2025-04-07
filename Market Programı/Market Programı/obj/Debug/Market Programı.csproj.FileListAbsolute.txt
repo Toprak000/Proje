@@ -1,0 +1,10 @@
+C:\Users\Eyüp\source\repos\Market Programı\Market Programı\bin\Debug\Market Programı.exe.config
+C:\Users\Eyüp\source\repos\Market Programı\Market Programı\bin\Debug\Market Programı.exe
+C:\Users\Eyüp\source\repos\Market Programı\Market Programı\bin\Debug\Market Programı.pdb
+C:\Users\Eyüp\source\repos\Market Programı\Market Programı\obj\Debug\Market Programı.csproj.AssemblyReference.cache
+C:\Users\Eyüp\source\repos\Market Programı\Market Programı\obj\Debug\Market_Programı.Form1.resources
+C:\Users\Eyüp\source\repos\Market Programı\Market Programı\obj\Debug\Market_Programı.Properties.Resources.resources
+C:\Users\Eyüp\source\repos\Market Programı\Market Programı\obj\Debug\Market Programı.csproj.GenerateResource.cache
+C:\Users\Eyüp\source\repos\Market Programı\Market Programı\obj\Debug\Market Programı.csproj.CoreCompileInputs.cache
+C:\Users\Eyüp\source\repos\Market Programı\Market Programı\obj\Debug\Market Programı.exe
+C:\Users\Eyüp\source\repos\Market Programı\Market Programı\obj\Debug\Market Programı.pdb
