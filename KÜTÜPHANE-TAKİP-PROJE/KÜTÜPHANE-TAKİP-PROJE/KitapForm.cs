@@ -1,4 +1,5 @@
-﻿using System;
+﻿using KutuphaneYonetimSistemi;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -26,12 +27,23 @@ namespace KÜTÜPHANE_TAKİP_PROJE
         private void toolStripButton2_Click(object sender, EventArgs e)
         {
 
+
         }
 
         private void toolStripButton5_Click(object sender, EventArgs e)
         {
 
-            
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            if (DatabaseHelper.TestConnection())
+            {
+                MessageBox.Show("Veritabanına bağlantı başarılı!");
+
+                // Kitaplar tablosunu DataGridView'e yükleme
+                dataGridView1.DataSource = DatabaseHelper.GetTable("Kitaplar");
+            }
         }
     }
 }

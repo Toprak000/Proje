@@ -35,3 +35,5 @@ C:\Users\-_-\Desktop\KÜTÜPHANE-TAKİP-PROJE\KÜTÜPHANE-TAKİP-PROJE\obj\Debug
 C:\Users\-_-\Desktop\KÜTÜPHANE-TAKİP-PROJE\KÜTÜPHANE-TAKİP-PROJE\obj\Debug\KÜTÜPHANE-TAKİP-PROJE.exe
 C:\Users\-_-\Desktop\KÜTÜPHANE-TAKİP-PROJE\KÜTÜPHANE-TAKİP-PROJE\obj\Debug\KÜTÜPHANE-TAKİP-PROJE.pdb
 C:\Users\-_-\Desktop\KÜTÜPHANE-TAKİP-PROJE\KÜTÜPHANE-TAKİP-PROJE\obj\Debug\KÜTÜPHANE_TAKİP_PROJE.KitapTakip.resources
+C:\Users\-_-\Desktop\KÜTÜPHANE-TAKİP-PROJE\KÜTÜPHANE-TAKİP-PROJE\obj\Debug\KÜTÜPHANE_TAKİP_PROJE.Raporlar.resources
+C:\Users\-_-\Desktop\KÜTÜPHANE-TAKİP-PROJE\KÜTÜPHANE-TAKİP-PROJE\obj\Debug\KÜTÜPHANE_TAKİP_PROJE.Ayarlar.resources
